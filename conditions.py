@@ -58,3 +58,26 @@
 #     if i==3:
 #         continue
 #     print(i)
+
+#while loop
+# a=1
+# while a<=5:
+#     print(a)
+#     a+=1
+
+#nested for loop
+# for i in range(4):
+#     for j in range(2):
+#         print(f"i={i},j={j}")
+
+#list comprehension
+# even=[x for x in range(1,11) if x%2==0]
+# odd=[x for x in range(1,11) if x%2!=0]
+# print("ODD:",odd)
+# print("EVEN:",even)
+
+#square of even and odd using list comprehension
+even=[x**2 for x in range(1,11) if x%2==0]
+odd=[x**2 for x in range(1,11) if x%2!=0]
+print("ODD:",odd)
+print("EVEN:",even)
