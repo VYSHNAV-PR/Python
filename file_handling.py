@@ -27,7 +27,23 @@
 # file.close()
 
 # Appending Data
-file = open("sample.txt", "a")
-file.write("Appended text.\n")
-file.close()
+# file = open("sample.txt", "a")
+# file.write("Appended text.\n")
+# file.close()
 
+#using with statement
+# with open("sample.txt","r") as file:
+#     content=file.read()
+#     print(content)
+
+#file positioning with seek and tell
+# with open("sample.txt","r")as file:
+#     content=file.read()
+#     pos=file.tell()
+#     print(pos)
+
+# file = open("sample.txt", "r")
+# file.seek(5) 
+# print(file.read())
+# print(file.tell())
+# file.close()

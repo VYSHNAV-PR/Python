@@ -1,3 +1,1 @@
-Hello
-Welcome to Python file handling
-Appended text.
+Hello File Handling
