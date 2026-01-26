@@ -299,14 +299,46 @@
 # print(f"Area of Reactangle:",rectangle.area())
         
 #destructor
-class Person:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
-        print(F"{self.name} has been created..")
-    def __del__(self):
-        print(f"{self.name} has been destroyed..")
-person=Person("Vyshnav",24)
-del person
+# class Person:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#         print(F"{self.name} has been created..")
+#     def __del__(self):
+#         print(f"{self.name} has been destroyed..")
+# person=Person("Vyshnav",24)
+# del person
 
-        
+#decorators
+# def aaa(func):
+#     def wrap(*args,**kwargs):
+#         print(f"Before")
+#         res=func(*args,**kwargs)
+#         print(res)
+#         print(f"After")
+#     return wrap
+# @aaa
+# def add(a,b):
+#     return a+b
+# add(10,20)
+# @aaa
+# def substract(a,b):
+#     return a-b
+# substract(20,10)
+
+#decorator @classmethod
+# class Company:
+#     company_name="ABC solutions"
+#     @classmethod
+#     def change_company(cls,new_name):
+#         cls.company_name=new_name
+# Company.change_company("XYZ infotech")
+# print(f"Chmaged Company:",Company.company_name)
+
+#static method
+class Operations:
+    @staticmethod
+    def add(a,b):
+        return a+b
+op=Operations()
+print(op.add(100,200))         

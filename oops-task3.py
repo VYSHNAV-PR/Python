@@ -11,7 +11,7 @@ for i in range(3):
     title=input(f"Enter the Book title:")
     author=input(f"Enter Author:")
     copies=int(input("Enter Copies:"))
-
+    print("\n")
     book=Book(title,author,copies)
     library.append(book)
 search_book=input("Enter the Book title to search:")
