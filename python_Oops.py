@@ -336,9 +336,9 @@
 # print(f"Chmaged Company:",Company.company_name)
 
 #static method
-class Operations:
-    @staticmethod
-    def add(a,b):
-        return a+b
-op=Operations()
-print(op.add(100,200))         
+# class Operations:
+#     @staticmethod
+#     def add(a,b):
+#         return a+b
+# op=Operations()
+# print(op.add(100,200))         
